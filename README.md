@@ -66,7 +66,7 @@ O repositório filtra, ordena e decide os destaques. A `HomeScreen` guarda a cat
 
 ## Como rodar
 
-Abrir a pasta no Android Studio, esperar o Gradle sincronizar e rodar o módulo `app` num emulador ou celular com Android 7.0 ou superior, com internet para as fotos.
+Rodar o módulo `app` num emulador ou celular com Android 7.0 ou superior.
 
 ## Vídeo pitch
 
