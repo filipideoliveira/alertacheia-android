@@ -6,7 +6,7 @@ import br.com.filipideoliveira.alertacheia.model.Categoria
 // Dados em memória e toda a lógica de filtro ficam aqui, fora da tela.
 class AbrigoRepository {
 
-    // Regiões com eventos críticos: o resultado da questão 5 do BD.
+    // Regiões com alerta de enchente agora.
     private val regioesEmAlerta = setOf("Centro", "Zona Leste")
 
     // Bairros onde o caminho até o abrigo passa por rua alagada.
@@ -15,6 +15,7 @@ class AbrigoRepository {
     private fun foto(id: String) =
         "https://images.unsplash.com/photo-$id?w=600&q=80&fit=crop"
 
+    // O destaque não vem marcado aqui: é calculado pela regra da Rota segura.
     private val abrigos: List<Abrigo> = listOf(
         Abrigo(
             nome = "Escola Municipal da Sé",

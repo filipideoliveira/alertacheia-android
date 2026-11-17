@@ -54,7 +54,8 @@ br.com.filipideoliveira.alertacheia
     ├── components/
     │   ├── AbrigoListItem.kt      card da lista vertical
     │   ├── CategoriaSelector.kt   chips do filtro
-    │   └── RotaSeguraSection.kt   alerta e destaques horizontais
+    │   ├── RotaSeguraSection.kt   alerta e faixa horizontal de destaques
+    │   └── DestaqueCard.kt        card de cada destaque
     ├── screens/
     │   └── HomeScreen.kt          junta tudo e guarda a categoria escolhida
     └── theme/                     cores e tema do Material 3
